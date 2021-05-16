@@ -1,2 +1,2 @@
-# HTML_Tasks
-HTML Tasks
+# HTML Tasks
+Learn HTML 
