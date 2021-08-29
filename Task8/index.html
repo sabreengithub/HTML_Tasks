@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Free Web tutorials">
+            <title>Task 8</title>
+        </head>
+<body>
+
+    <form action="a.html"  method="POST">
+        <div class="input">
+            <label> Username</label>
+            <br>
+            <input type="text" id="Username" readonly value="Sabreen" name="Username">
+        </div>
+        <hr>
+        <div class="input">
+            <label for="mobile"> Mobile:</label>
+            <br>
+            <input type="text"  id="mobile" placeholder="insert mobile"  name="Mobile">
+        </div>
+        <hr>
+        <div class="input">
+            <label for="Email">Email:</label><br>
+            <input type="email" id="Email" required placeholder="username@gmail.com" name="email">
+        </div>
+        <hr>
+        <div class="input">
+            <label> Subject</label>
+            <br>
+            <input type="text" placeholder="insert subject" name="Subject" id="choose" list="mychoose">
+            <datalist  id="mychoose">
+            <option value="HTML5">
+            <option value="Css3">
+            <option value="Js">
+            <option value="Dart">
+            </datalist>       
+        </div>
+        <hr>
+        <div class="input">
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" required placeholder="password" name="password">
+        </div>
+        
+        <hr>
+        <div class="input">
+            <label for="number">Number:</label><br>
+            <input type="text" id="number" name="number" maxlength="5" size="5"><br><br>
+        </div>
+        <div class="input">
+            <input type="hidden" id="custId" name="custId" value="5555">
+        </div>
+        
+        Favorite Food:
+        <br>
+        <input type="checkbox" id="choose1" name="choose1" value="Fruit">
+        <label for="choose1"> Fruit</label><br>
+        <input type="checkbox" id="choose2" name="choose2" value="Salad">
+        <label for="choose2"> Salad</label><br>
+        <input type="checkbox" id="choose3" name="choose3" value="Pizza">
+        <label for="choose3"> Pizza</label><br>
+        <input type="checkbox" id="choose4" name="choose4" value="IceCream">
+        <label for="choose4"> IceCream</label><br><br>
+        <hr>
+
+        Choose OS:
+        <br>
+        <input type="radio" id="linux" name="fav_language" value="Linux">
+        <label for="linux">Linux</label><br>
+        <input type="radio" id="Windows" name="fav_language" value="Windows">
+        <label for="Windows">Windows</label><br><br>
+        <!--<input type="radio"> defines a radio button.
+Radio buttons let a user select ONLY ONE of a limited number of choices-->
+
+        <!--<input type="checkbox"> defines a checkbox.
+Checkboxes let a user select ZERO or MORE options of a limited number of choices.-->
+
+  
+            <input type="submit"  value="send">
+       
+
+
+    </form>
+
+    </body>
+
+    
+    
+</html>
